@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fbd521c-b74b-45ad-a205-ad5df7459f7b" name="Default Changelist" comment="" />
+    <list default="true" id="2fbd521c-b74b-45ad-a205-ad5df7459f7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKS-Admin-API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SKS-Admin-API/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKS-Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SKS-Core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKS-DB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SKS-DB/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKS-Start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SKS-Start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKS-WX-API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SKS-WX-API/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,21 +54,17 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="F:/Computer/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="E:\leo\LearningMaterials\Maven\SecondsKillSystem\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1q4JF48iXf8cXEzCwIw6PJHJcY4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -62,14 +74,20 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Docker/db/init-sql" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -154,6 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.angeleo.sks.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SKS-Admin-API" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.angeleo.sks.admin.AdminApplication" />
@@ -174,9 +199,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SKS-Start" />
+    <configuration name="StartApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="start" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.angeleo.sks.start.StartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.angeleo.sks.start.StartApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WXApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wx" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.angeleo.sks.wx.WXApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,11 +231,11 @@
     <configuration name="SecondsKillSystem/DockerFile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker@42.192.71.179">
       <deployment type="dockerfile">
         <settings>
+          <option name="imageTag" value="sks:0.1.0" />
           <option name="buildCliOptions" value="" />
           <option name="command" value="" />
           <option name="containerName" value="SecondsKillSystem" />
           <option name="entrypoint" value="" />
-          <option name="imageTag" value="sks:0.1.0" />
           <option name="portBindings">
             <list>
               <DockerPortBindingImpl>
@@ -223,6 +263,9 @@
       <item itemvalue="Spring Boot.StartApplication" />
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.DbApplicationTests" />
+      <item itemvalue="Spring Boot.StartApplication (1)" />
+      <item itemvalue="Spring Boot.WXApplication (1)" />
+      <item itemvalue="Spring Boot.AdminApplication (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -247,6 +290,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\leo\AppData\Roaming\Subversion</configuration>
   </component>
@@ -299,173 +343,22 @@
       <workItem from="1619427261077" duration="31572000" />
       <workItem from="1619575857241" duration="11976000" />
       <workItem from="1619592114227" duration="4272000" />
+      <workItem from="1626766022968" duration="2915000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="279" y="29" key="#Docker" timestamp="1619587405145">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="279" y="29" key="#Docker/0.0.1366.738@0.0.1366.738" timestamp="1619587405145" />
-    <state x="279" y="29" key="#Inspections" timestamp="1616427051813">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="279" y="29" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1616427051813" />
-    <state x="546" y="192" key="#Path_mapping" timestamp="1618378894645">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="546" y="192" key="#Path_mapping/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618378894645" />
-    <state x="450" y="59" key="#Project_Structure" timestamp="1616522733203">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="450" y="59" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1616522733203" />
-    <state x="556" y="185" key="#SQL_Dialects" timestamp="1618042481657">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="556" y="185" key="#SQL_Dialects/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618042481657" />
-    <state x="395" y="0" key="#SecondsKillSystem/DockerFile" timestamp="1619576421146">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="395" y="0" key="#SecondsKillSystem/DockerFile/0.0.1366.738@0.0.1366.738" timestamp="1619576421146" />
-    <state x="184" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619589511288">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="432" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618378972353" />
-    <state x="184" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1619589511288" />
-    <state x="420" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619582048273">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="420" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1619582048273" />
-    <state x="1039" y="331" key="#com.intellij.ide.util.MemberChooser" timestamp="1617980212404">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1039" y="331" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1617980212404" />
-    <state x="506" y="61" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1616518557990">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="506" y="61" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.738@0.0.1366.738" timestamp="1616518557990" />
-    <state x="207" y="296" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1616506078980">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="207" y="296" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1616506078980" />
-    <state x="466" y="229" width="433" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1616658336438">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="466" y="229" width="433" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1616658336438" />
-    <state x="466" y="250" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1616506081592">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="466" y="250" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1616506081592" />
-    <state x="481" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617177444595">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="481" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1617177444595" />
-    <state x="586" y="166" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617180523111">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="586" y="166" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1617180523111" />
-    <state x="417" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1616562247969" />
-    <state x="656" y="174" key="FileChooserDialogImpl" timestamp="1618378968179">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="656" y="174" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618378968179" />
-    <state x="467" y="122" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1616522385699" />
-    <state width="1323" height="105" key="GridCell.Tab.0.bottom" timestamp="1619590473656">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1044" height="176" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618497005446" />
-    <state width="1323" height="105" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1619590473656" />
-    <state width="1323" height="105" key="GridCell.Tab.0.center" timestamp="1619590473656">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1044" height="176" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618497005446" />
-    <state width="1323" height="105" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1619590473656" />
-    <state width="1323" height="105" key="GridCell.Tab.0.left" timestamp="1619590473656">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1044" height="176" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618497005446" />
-    <state width="1323" height="105" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1619590473656" />
-    <state width="1323" height="105" key="GridCell.Tab.0.right" timestamp="1619590473656">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1044" height="176" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618497005446" />
-    <state width="1323" height="105" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1619590473656" />
-    <state width="1045" height="170" key="GridCell.Tab.1.bottom" timestamp="1619540565905">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1044" height="176" key="GridCell.Tab.1.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618497005446" />
-    <state width="1045" height="170" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1619540565905" />
-    <state width="1045" height="170" key="GridCell.Tab.1.center" timestamp="1619540565905">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1044" height="176" key="GridCell.Tab.1.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618497005446" />
-    <state width="1045" height="170" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1619540565905" />
-    <state width="1045" height="170" key="GridCell.Tab.1.left" timestamp="1619540565905">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1044" height="176" key="GridCell.Tab.1.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618497005446" />
-    <state width="1045" height="170" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1619540565905" />
-    <state width="1045" height="170" key="GridCell.Tab.1.right" timestamp="1619540565905">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1044" height="176" key="GridCell.Tab.1.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618497005446" />
-    <state width="1045" height="170" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1619540565905" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1616385525283">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1616385525283" />
-    <state x="434" y="52" key="Maven.ArtifactSearchDialog" timestamp="1617528683251">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="434" y="52" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1617528683251" />
-    <state x="235" y="68" key="NewModule_or_Project.wizard" timestamp="1616522387407">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="235" y="68" key="NewModule_or_Project.wizard/0.0.1366.738@0.0.1366.738" timestamp="1616522387407" />
-    <state x="75" y="0" key="SettingsEditor" timestamp="1619588632055">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="455" y="176" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618378899838" />
-    <state x="75" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1619588632055" />
-    <state width="498" height="488" key="SwitcherDM" timestamp="1616515779816">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="498" height="488" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1616515779816" />
-    <state x="411" y="118" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1619588836360">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="411" y="118" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize/0.0.1366.738@0.0.1366.738" timestamp="1619588836360" />
-    <state x="417" y="135" key="extract.method.dialog" timestamp="1619503534841">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="586" y="192" key="extract.method.dialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1617188559228" />
-    <state x="417" y="135" key="extract.method.dialog/0.0.1366.738@0.0.1366.738" timestamp="1619503534841" />
-    <state x="0" y="0" width="786" height="738" key="find.popup" timestamp="1616521668089">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="0" y="0" width="786" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1616521668089" />
-    <state x="123" y="68" key="new project wizard" timestamp="1616561816614">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="123" y="68" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1616561816614" />
-    <state x="388" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1616507154002">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="388" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1616507154002" />
-    <state x="343" y="167" width="672" height="677" key="run.anything.popup" timestamp="1616520759536">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="343" y="167" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1616520759536" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1616586831913">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1616586831913" />
-    <state x="388" y="54" key="spring file set editor" timestamp="1616428060537">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="388" y="54" key="spring file set editor/0.0.1366.738@0.0.1366.738" timestamp="1616428060537" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

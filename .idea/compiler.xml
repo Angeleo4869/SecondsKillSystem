@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SKS-WX-API" />
-        <module name="SKS-Admin-API" />
-        <module name="SKS-DB" />
-        <module name="SKS-Start" />
         <module name="SKS-Core" />
+        <module name="core" />
+        <module name="wx" />
+        <module name="SKS-Admin-API" />
+        <module name="start" />
+        <module name="SKS-WX-API" />
+        <module name="SKS-DB" />
+        <module name="admin" />
+        <module name="db" />
+        <module name="SKS-Start" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Wx" target="1.8" />
-      <module name="wx" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,6 +31,11 @@
       <module name="SKS-WX-API" options="-parameters" />
       <module name="SecondsKillSystem" options="" />
       <module name="Wx" options="-parameters" />
+      <module name="admin" options="-parameters" />
+      <module name="core" options="-parameters" />
+      <module name="db" options="-parameters" />
+      <module name="start" options="-parameters" />
+      <module name="wx" options="-parameters" />
     </option>
   </component>
 </project>

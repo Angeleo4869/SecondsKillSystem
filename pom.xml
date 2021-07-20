@@ -22,8 +22,8 @@
     <modules>
         <module>SKS-DB</module>
         <module>SKS-Core</module>
-        <module>SKS-Admin</module>
-        <module>SKS-WX</module>
+        <module>SKS-Admin-API</module>
+        <module>SKS-WX-API</module>
     </modules>
     <dependencyManagement>
         <dependencies>
